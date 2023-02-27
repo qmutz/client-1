@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-appdmg@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/appdmg/-/appdmg-0.6.0.tgz#81b3beab624ab458e6104d87c5cfa4b172203821"
-  integrity sha512-vDz8cMf5c6BfoS72OmmHzzuxG5DFVDM6YCAkscjYh3GASGEBBRCZ10Bn515ZPSPHOpfI9Xu3MlApbd49C58pJg==
+appdmg@0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/appdmg/-/appdmg-0.6.6.tgz#d06bd82b530032fd7a8f0970a1c6ee6196e1efce"
+  integrity sha512-GRmFKlCG+PWbcYF4LUNonTYmy0GjguDy6Jh9WP8mpd0T6j80XIJyXBiWlD0U+MLNhqV9Nhx49Gl9GpVToulpLg==
   dependencies:
     async "^1.4.2"
     ds-store "^0.1.5"
