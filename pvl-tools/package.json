@@ -12,6 +12,6 @@
   "dependencies": {
     "cson": "^3.0.2",
     "docopt": "^0.6.2",
-    "json-stable-stringify": "^1.0.1"
+    "json-stable-stringify": "^1.0.2"
   }
 }
