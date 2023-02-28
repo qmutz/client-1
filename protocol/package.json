@@ -22,7 +22,7 @@
     "bluebird": "^2.10.0",
     "camelcase": "^4.0.0",
     "colors": "^1.1.2",
-    "iced-coffee-script": "^108.0.9",
+    "iced-coffee-script": "^108.0.14",
     "iced-error": "0.0.9",
     "iced-logger": "^0.0.6",
     "iced-runtime": "^1.0.2",

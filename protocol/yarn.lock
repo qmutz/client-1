@@ -113,12 +113,13 @@ esutils@~1.0.0:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-1.0.0.tgz#8151d358e20c8acc7fb745e7472c0025fe496570"
   integrity sha1-gVHTWOIMisx/t0XnRywAJf5JZXA=
 
-iced-coffee-script@^108.0.9:
-  version "108.0.11"
-  resolved "https://registry.yarnpkg.com/iced-coffee-script/-/iced-coffee-script-108.0.11.tgz#1d71ff93c9049728a6468385aa9bc891fd74c58f"
-  integrity sha1-HXH/k8kElyimRoOFqpvIkf10xY8=
+iced-coffee-script@^108.0.14:
+  version "108.0.14"
+  resolved "https://registry.yarnpkg.com/iced-coffee-script/-/iced-coffee-script-108.0.14.tgz#9ca5b258decf4a5eafb16f5663ff7683227c4f1a"
+  integrity sha512-e0CNmz51UGWRa2glPnUMnJM7oKQE81cxeC0WAgCjJDRImv3FDHldZr/Ngkbrgdbf1drGGzYWp+PWeJwXIfHwDw==
   dependencies:
     iced-runtime ">=0.0.1"
+    uglify-js "^3.5.9"
 
 iced-error@0.0.9:
   version "0.0.9"
@@ -237,6 +238,11 @@ source-map@~0.1.33:
   integrity sha1-wkvBRspRfBRx9drL4lcbK3+eM0Y=
   dependencies:
     amdefine ">=0.0.4"
+
+uglify-js@^3.5.9:
+  version "3.17.4"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.17.4.tgz#61678cf5fa3f5b7eb789bb345df29afb8257c22c"
+  integrity sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==
 
 underscore@1.1.x:
   version "1.1.7"
