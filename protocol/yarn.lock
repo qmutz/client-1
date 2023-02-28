@@ -120,6 +120,11 @@ iced-coffee-script@^108.0.9:
   dependencies:
     iced-runtime ">=0.0.1"
 
+iced-error@0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/iced-error/-/iced-error-0.0.13.tgz#a4a8a4f1461a59c7a2a380b4f745ffd80718f08b"
+  integrity sha512-yEEaG8QfyyRL0SsbNNDw3rVgTyqwHFMCuV6jDvD43f/2shmdaFXkqvFLGhDlsYNSolzYHwVLM/CrXt9GygYopA==
+
 iced-error@0.0.9:
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/iced-error/-/iced-error-0.0.9.tgz#c7c3057614c0a187d96b3d18c6d520e6b872ed37"
