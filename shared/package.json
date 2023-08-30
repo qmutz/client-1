@@ -55,7 +55,9 @@
     "tsc-strict": "node --max-old-space-size=4096 ./node_modules/.bin/tsc --project ./tsconfig.strict.json ",
     "build-storybook": "build-storybook",
     "modules": "yarn install --pure-lockfile --ignore-optional",
-    "log-to-trace": "yarn _node desktop/yarn-helper/log-to-trace"
+    "log-to-trace": "yarn _node desktop/yarn-helper/log-to-trace",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -138,7 +140,8 @@
     "unidecode": "0.1.8",
     "url-parse": "1.4.7",
     "use-memo-one": "1.1.1",
-    "whatwg-url": "7.0.0"
+    "whatwg-url": "7.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "7.6.2",
@@ -281,5 +284,6 @@
     "babel-core": "7.0.0-bridge.0",
     "**/purepack": "git://github.com/keybase/nullModule",
     "react-native-screens": "git://github.com/keybase/react-native-screens#keybase-changes-off-alpha-23"
-  }
+  },
+  "snyk": true
 }
